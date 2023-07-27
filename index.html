@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- TODO: Replace this with your title -->
+	<title>Deven's Portfolio Site</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- Bootstrap Icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" / <!-- Custom
+		styles (these can extend the default Bootstrap styles) -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body div class="container py-2">
+
+	<!-- TODO: Paste Navbar code and customize links -->
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="d-flex flex-grow-1">
+					<span class="w-100 d-lg-none d-block">
+						<!-- hidden spacer to center brand on mobile -->
+					</span>
+					<a class="navbar-brand" href="#">
+						<h1 class="bi bi-house"></h1>
+					</a>
+					<div class="w-100 text-right">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar7">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+				</div>
+				<div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+					<ul class="navbar-nav ms-auto flex-nowrap">
+						<li class="nav-item">
+							<a href="#" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#meet-me" class="nav-link">Meet Me</a>
+						</li>
+						<li class="nav-item">
+							<a href="#skills-section" class="nav-link">Skills</a>
+						</li>
+						</li>
+						<li class="nav-item">
+							<a href="#contact-section" class="nav-link">Contact Me</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main id="main-content">
+		<!-- Hero section -->
+		<section id="hero-section">
+			<div class="p-5 mb-4 bg-light text-center hero-jumbo rounded-bottom">
+				<div class="container-fluid py-5 animate__animated animate__fadeIn">
+					<img class="col-md-8 fs-4 roundimg" src="img/mehead.jpg" alt:"A Picture of me">
+					<h1 class="display-5 fw-bold">Deven Pile</h1>
+				</div>
+			</div>
+		</section>
+		<!-- Mission/Meet-me section -->
+		<section id="mission-section">
+			<div class="container-fluid bg-3 text-center">
+				<h3 class="mb-2" id="meet-me">Meet Me</h3>
+				<div class="row">
+					<div class="col-sm  mt-1 me-sm-2 rounded-3 bg-light">
+						<p class="text-start p-2">
+							Hi there! I'm Deven Pile, a dedicated and experienced software engineer with four years of professional
+							experience in the field. My passion for technology and coding has been a driving force throughout my
+							career.<br>
+							I embarked on my journey in computer science at ASU, where I honed my skills and laid a strong foundation
+							for my career. Since then, I've been actively engaged in various software development projects, where I've
+							had the opportunity to work on exciting challenges and contribute to innovative solutions.<br>
+							Beyond my professional endeavors, I'm also an avid enthusiast of film photography. It all began when my
+							girlfriend Rachel gifted me a Canon Ae-1 camera as an anniversary present, and I've been capturing moments
+							through its lens ever since.
+							<br>
+							As I continue to evolve as a software engineer, I am open to new opportunities that allow me to further
+							grow and make a positive impact in the tech industry. Let's connect and explore the possibilities
+							together!
+						</p>
+					</div>
+					<div class="col-sm mt-1 ms-sm-2 rounded-3 col-image">
+						<!-- This is a hack to make these work how I wanted -->
+						<p class="text-start p-2 transparenttext">
+							Hi there! I'm Deven Pile, a dedicated and experienced software engineer with four years of professional
+							experience in the field. My passion for technology and coding has been a driving force throughout my
+							career.<br>
+							I embarked on my journey in computer science at ASU, where I honed my skills and laid a strong foundation
+							for my career. Since then, I've been actively engaged in various software development projects, where I've
+							had the opportunity to work on exciting challenges and contribute to innovative solutions.<br>
+							Beyond my professional endeavors, I'm also an avid enthusiast of film photography. It all began when my
+							girlfriend Rachel gifted me a Canon Ae-1 camera as an anniversary present, and I've been capturing moments
+							through its lens ever since.
+							<br>
+							As I continue to evolve as a software engineer, I am open to new opportunities that allow me to further
+							grow and make a positive impact in the tech industry. Let's connect and explore the possibilities
+							together!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skills section -->
+		<section id="skills-section" class=" px-2 pb-2 rounded-3">
+			<h3 class="text-center mt-5">Skills</h3>
+			<div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mt-1">
+				<div class="col animate__animated animate__fadeInUp">
+					<div class="card h-100 my-animate-1st">
+						<div class="card-header card-bgcolor-top green"><i class="bi bi-code-square display-5 list-group-flush"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Backend Technologies</h5>
+							<ul class="list-group list-group-flush border-top">
+								<li class="list-group-item">C/C++</li>
+								<li class="list-group-item">Java</li>
+								<li class="list-group-item">Python</li>
+								<li class="list-group-item">C#</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col animate__animated animate__fadeInUp my-animate-2nd">
+					<div class="card h-100">
+						<div class="card-header card-bgcolor-top purple">
+							<i class="bi bi-laptop display-5"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Front End Technologies</h5>
+							<ul class="list-group list-group-flush border-top">
+								<li class="list-group-item">JavaScript</li>
+								<li class="list-group-item">Html</li>
+								<li class="list-group-item">CSS</li>
+								<li class="list-group-item">Python</li>
+								<li class="list-group-item">Swift</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col animate__animated animate__fadeInUp my-animate-3rd">
+					<div class="card h-100">
+						<div class="card-header card-bgcolor-top blue">
+							<i class="bi bi-server display-5"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Database Technologies</h5>
+							<ul class="list-group list-group-flush border-top">
+								<li class="list-group-item">SQL</li>
+								<li class="list-group-item border-bottom">NoSQL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col animate__animated animate__fadeInUp my-animate-4th">
+					<div class="card h-100">
+						<div class="card-header card-bgcolor-top some-color">
+							<i class="bi bi-git display-5"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title text-center">Version Control</h5>
+							<ul class="list-group list-group-flush border-top">
+								<li class="list-group-item">Git</li>
+								<li class="list-group-item">GitHub</li>
+								<li class="list-group-item border-bottom">BitBucket</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<!-- Inspiration Section -->
+
+		<!-- Contact Section -->
+		<section id="contact-section">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center mt-5">
+						<h3>Contact Me</h3>
+					</div>
+				</div>
+				<div class="row mt-1 text-center d-inline">
+					<p>
+						<a href="mailto:devo321@gmail.com"><i class="bi bi-google m-2 icon-style"></i></a>
+						<a href="https://www.linkedin.com/in/deven-pile-a2065419b" target="_blank"><i
+								class="bi bi-linkedin m-2 fs-6 icon-style"></i></a>
+						<a href="https://www.instagram.com/divided_deven/" target="_blank"><i
+								class="bi bi-instagram m-2 fs-6 icon-style"></i></a>
+					</p>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer section -->
+		<section id="footer-section">
+			<footer class="container py-5">
+				<div class="row border-top">
+					<div class="col text-center mt-3">
+						<p>&copy Deven Pile 2022</p>
+						<a href="#top">Back to top</a>
+					</div>
+				</div>
+			</footer>
+		</section>
+	</main>
+	<!-- Bootstrap Javascript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
